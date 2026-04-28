@@ -42,10 +42,19 @@ class LoginScreen extends StatelessWidget {
                   ),
                 );
               },
+              style: ButtonStyle(
+                backgroundColor: WidgetStatePropertyAll(Colors.blue),
+                shape: WidgetStatePropertyAll(
+                  RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.circular(10),
+                  ),
+                ),
+              ),
+
               child: Center(
                 child: Text(
                   'LOGIN',
-                  style: TextStyle(color: Colors.black, fontSize: 14),
+                  style: TextStyle(color: Colors.white, fontSize: 14),
                 ),
               ),
             ),
